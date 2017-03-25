@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="#000000"
+              android:layout_height="match_parent">
+    <TextView
+            android:id="@+id/nothing0"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20sp"
+            android:layout_weight="4"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_gravity="right" >
+
+    <TextView
+        android:id="@+id/sound"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:textSize="25sp"
+        android:gravity="left"
+        android:text="Switch-Sound"
+        android:layout_weight="2"/>
+
+        <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/toggleButton" android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_gravity="right" >
+    <TextView
+            android:id="@+id/ballspeed"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:text="Ball Speed"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="20sp"
+            android:layout_weight="0.12"/>
+        <SeekBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20sp"
+                android:progress="50"
+                android:id="@+id/seekBar"
+                android:layout_weight="0.75" android:indeterminate="false"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.53"
+            android:layout_gravity="right" >
+        <TextView
+                android:id="@+id/ballspeedtext"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:text="Current Ball Speed:"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="20sp"
+        />
+    </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.53"
+                android:layout_gravity="right" >
+    <TextView
+            android:id="@+id/boardspeed"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:text="Board Speed"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="20sp"
+    />
+            <SeekBar
+                    android:layout_width="wrap_content"
+                    android:padding="20sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/seekBar2"
+                    android:progress="50"
+                    android:layout_weight="2.25"/>
+        </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.53"
+            android:layout_gravity="right" >
+        <TextView
+                android:id="@+id/boardspeedtext"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:text="Current Board Speed:"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="20sp"
+        />
+    </LinearLayout>
+    <TextView
+            android:id="@+id/nothing"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20sp"
+            android:layout_weight="4"/>
+</LinearLayout>
